@@ -17,7 +17,7 @@ The output can then be processed for whatever purpose, including:
 The basic `Makefile` provided works for Linux and requires some adjustements for other Unices.
 
 The output looks like this:
-`
+```
 % ./fist .
 4:40755:2:12345:4567:4096:1726156208:1726156206:1726156208:.
 32:100755:1:12345:4567:30560:1726156208:1726156212:1726156208:./fist
@@ -27,7 +27,7 @@ The output looks like this:
 4:100644:1:12345:4567:263:1726156201:1726156206:1726156201:./Makefile
 4:100644:1:12345:4567:22:1726156201:1726156201:1726156201:./.gitignore
 %
-`
+```
 
 The fields are:
 `blocks perms nlinks uid gid size mtime atime ctime name`
