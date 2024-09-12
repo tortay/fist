@@ -36,3 +36,4 @@ The fields are:
 - `perms` is displayed in octal
 - `nlinks` id the number of hardlinks to this object
 - `uid`, `gid`, `atime`, `ctime`, `mtime` are displayed as numbers
+- dates are Unix-epoch (1st Jan 1970) based number of seconds
