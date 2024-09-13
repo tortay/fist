@@ -159,6 +159,8 @@ For each histogram bucket:
 - select files not accessed/modified for N days to archive, remove, etc.
 # Less easy possible processings:
 - use the object names to provide per-directory informations instead of per-user
+- use the object names (filename "extensions") to provide usage breakdown (e.g. images,
+  movies, executables, source files, etc.)
 - use the object names & the user ID to provide per-user subtrees of user content,
   for instance to know which files to archive, remove or re-affect to someone else when
   a user account is closed
