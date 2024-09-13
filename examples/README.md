@@ -141,6 +141,7 @@ The optional histogram looks like this:
         }
     ]
 }
+%
 ```
 
 For each histogram bucket:
