@@ -33,7 +33,7 @@ The fields are:
 `blocks perms nlinks uid gid size mtime atime ctime name`
 
 - `blocks` is in KiB not `512` bytes sector
-- `perms` is displayed in octal
+- `perms` is displayed in octal (it's the full `mode_t` not just the permissions)
 - `nlinks` id the number of hardlinks to this object
 - `uid`, `gid`, `atime`, `ctime`, `mtime` are displayed as numbers
 - dates are Unix-epoch (1st Jan 1970) based number of seconds
