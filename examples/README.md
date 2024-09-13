@@ -85,9 +85,9 @@ with values for *this* user:
 - `lctime` is the most recent change time for any file belonging to this user
 - `lmtime` is the most recent modification time for any file belonging to this user
 - `mindepth` is the minimum number of directories (shortest path)
-- `maxdepth` is the maximum number of directories (longuest path)
+- `maxdepth` is the maximum number of directories (longest path)
 - `minlength` is the shortest complete name (from the root of the data collection)
-- `maxlength` is the longuest complete name (from the root of the data collection)
+- `maxlength` is the longest complete name (from the root of the data collection)
 
 The `l*time` dates can be presented in human readable form with (in Python)
 `time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(latime))` or similar.
